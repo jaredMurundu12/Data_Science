@@ -1,7 +1,7 @@
 #WELI data preparation
 #Process ODK excel output to fit requirements of dataprep.do stata syntax file
 
-#08/04/2020
+#08/08/2023
 
 rm(list=ls())
 
@@ -10,7 +10,7 @@ library(tidyverse)
 library(data.table, warn.conflicts = FALSE)
 library(haven)
 #Adjust working directory
-setwd("C:/Users/Ken/Dropbox/Research Grant Projects/The GIVE Project/Data Management/WELI Baseline Data/Shevac Project WELI do files")
+setwd("C:/Users/Jared/Dropbox/Research Grant Projects/The GIVE Project/Data Management/WELI Baseline Data/Shevac Project WELI do files")
 #Adjust name of downloaded data
 weliWB         <- loadWorkbook("weli_2019_SVAC_KE3_2019_12_06_10_30_29.xlsx")
 
