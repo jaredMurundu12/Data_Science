@@ -1,3 +1,4 @@
-get_yesterday<-function({
-  return(Sys.Date() -1)
-})
+get_yesterday<-function() {
+  y<- (Sys.Date() -1)
+  return(y)
+}
